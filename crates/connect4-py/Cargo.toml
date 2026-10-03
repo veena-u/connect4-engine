@@ -1,0 +1,19 @@
+[package]
+name = "connect4-py"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+connect4 = { path = "../connect4" }
+game = { path = "../game" }
+search = { path = "../search" }
+numpy = "0.22"
+pyo3 = { version = "0.22", features = ["extension-module", "abi3-py39"] }
+
+[lib]
+name = "connect4_az"
+crate-type = ["cdylib"]
+test = false
+doctest = false
+
+

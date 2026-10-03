@@ -1,0 +1,11 @@
+.vscode/
+target/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+Cargo.lock
+.DS_Store
+**/.DS_Store

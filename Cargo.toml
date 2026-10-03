@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/game", "crates/connect4", "crates/search", "crates/connect4-py"]
+resolver = "2"

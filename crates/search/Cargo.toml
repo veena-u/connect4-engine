@@ -1,0 +1,10 @@
+[package]
+name = "search"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+game = { path = "../game" }
+
+[dev-dependencies]
+connect4 = { path = "../connect4" }
